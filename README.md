@@ -54,3 +54,11 @@ Migrar estos componentes validados a **Next.js + TypeScript**, generar páginas 
 - Bloque «Enviamos a toda la península» en la home, con mapa esquemático SVG interactivo, flechas desde Córdoba y destinos seleccionables. No representa distancias, recorridos reales ni tiempos de entrega.
 
 El stock es una copia de la exportación del 17/11/2026; no está sincronizado en tiempo real.
+
+## Cambios de V4 (18/11/2026)
+- Menú principal: enlace **Inicio**.
+- Sección de envíos: mapa de España peninsular + Portugal con contornos geográficos de referencia, flechas visibles simultáneamente desde Córdoba hacia diez ciudades y selección opcional para destacar una zona (sin rutas ni plazos de transporte).
+- Galería fotográfica real «Pasión por cada detalle» en la portada, con cuatro imágenes proporcionadas por Valenza.
+- Conserva las herramientas, el stock y los avisos de entorno de pruebas de V3.
+
+**Limitación:** el mapa es una representación geográfica simplificada, no una cartografía de transportes ni un servicio de navegación. Las flechas muestran cobertura de ejemplo. La web sigue siendo un prototipo estático y no captura leads.

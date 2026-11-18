@@ -65,3 +65,18 @@
 .whatsapp-widget{position:fixed;right:22px;bottom:22px;z-index:55}.whatsapp-fab{border:0;padding:0;background:transparent;border-radius:50%;width:62px;height:62px;filter:drop-shadow(0 6px 10px #0003);transition:transform .2s;display:grid;place-items:center}.whatsapp-fab:hover{transform:translateY(-3px)}.whatsapp-fab img{width:100%;height:100%;object-fit:contain}.whatsapp-panel{position:absolute;bottom:75px;right:0;background:white;width:min(310px,calc(100vw - 40px));border:1px solid #ddd;box-shadow:0 12px 35px #0002;border-radius:15px;padding:20px}.whatsapp-panel[hidden]{display:none}.whatsapp-panel strong{font-size:15px}.whatsapp-panel p{font-size:12px;color:#777;line-height:1.7;margin:10px 0}.whatsapp-panel a{font-size:13px;color:var(--red);font-weight:700;display:flex;gap:6px;align-items:center}
 @media(max-width:1100px){.delivery-grid{grid-template-columns:1fr;gap:24px}.delivery-map{max-width:750px}}
 @media(max-width:760px){.hero-search{padding:30px 20px 34px!important}.search-row{row-gap:18px!important}.feature-visual,.feature-visual img{min-height:230px}.delivery-section{padding:58px 0}.delivery-grid{gap:25px}.delivery-copy h2{font-size:40px}.delivery-map{padding:10px}.delivery-selector{gap:6px}.destination{font-size:10px;padding:7px 9px}.whatsapp-widget{right:14px;bottom:15px}.whatsapp-fab{width:56px;height:56px}.vehicle-finance-calculator{padding:15px}.nav-actions{gap:8px}}
+
+/* VALENZA V4 — geografía peninsular, destinos radiales y galería del concesionario */
+.delivery-map svg{width:100%;height:auto;aspect-ratio:760 / 480}
+.map-outline{fill:#f5f5f6;stroke:#cfd2d6;stroke-width:1.7;stroke-linejoin:round}
+.map-portugal{fill:#eceef0;stroke:#d8dbe0;stroke-width:1.2}
+.delivery-route{stroke:#c91e32;stroke-width:1.7;stroke-dasharray:5 5;opacity:.55;transition:opacity .25s,stroke-width .25s;animation:routeReveal 1s both;animation-delay:var(--route-delay)}
+.delivery-route.is-active{stroke-width:3.4;opacity:1;stroke-dasharray:none;animation:none}
+.delivery-route.is-muted{opacity:.13}
+.central-halo{fill:#c91e32;opacity:.12}.central-dot{fill:#c91e32;stroke:#fff;stroke-width:2}.central-label{font-size:13px;font-weight:800;fill:#af182d;letter-spacing:.04em}
+.destination-point{cursor:pointer;outline:none}.destination-point circle{fill:#343841;stroke:#fff;stroke-width:2}.destination-point text{font-size:11px;font-weight:700;fill:#535862}.destination-point.is-active circle,.destination-point:hover circle{fill:#c91e32}.destination-point:focus-visible circle{stroke:#c91e32;stroke-width:4}
+.delivery-hint{font-size:12px!important;color:#777!important;margin-bottom:11px!important}.map-info{letter-spacing:0;font-size:11px}
+@keyframes routeReveal{from{opacity:0}to{opacity:.55}}
+.showroom-section{padding:85px 0 96px;background:#fff}.showroom-section-head{margin-bottom:27px}.showroom-gallery{display:grid;grid-template-columns:1.35fr 1fr 1fr;grid-template-rows:205px 205px;gap:11px}.showroom-tile{position:relative;overflow:hidden;border-radius:14px;background:#eee;margin:0}.showroom-tile-large{grid-row:span 2}.showroom-tile img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .55s}.showroom-tile:hover img{transform:scale(1.035)}
+@media(max-width:760px){.showroom-section{padding:55px 0 65px}.showroom-gallery{grid-template-columns:1fr 1fr;grid-template-rows:250px 150px 150px;gap:8px}.showroom-tile-large{grid-column:span 2;grid-row:span 1}.showroom-section-head{gap:12px}.delivery-map svg{aspect-ratio:auto}.destination-point text{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.delivery-route,.showroom-tile img{animation:none!important;transition:none!important}}
