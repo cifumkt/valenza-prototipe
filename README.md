@@ -67,3 +67,18 @@ El stock es una copia de la exportación del 17/11/2026; no está sincronizado e
 ## V5 — Mapa a partir de referencia facilitada por el cliente
 
 El mapa de la sección de entregas utiliza el contorno cartográfico y las coordenadas del componente `MapaEspana.js` de `asg-web 2.zip`, adaptados a la identidad Valenza y a un prototipo estático sin React. Múltiples conexiones curvas salen simultáneamente desde Córdoba. No se muestra un destino fijo al cargar. Se excluyen Canarias y Baleares por tratarse de una sección de envíos peninsulares.
+
+## Novedades V6 (18/11/2026)
+- Ubicación eliminada de las fichas de vehículo, tarjetas y mensaje emergente de consulta. Se conserva el dato de sede internamente para el filtro del catálogo y futura asignación de leads.
+- Galería ampliable a pantalla completa con teclado (Esc, flechas), contador y miniaturas.
+- Sección de vehículos relacionados según marca o carrocería.
+- Animación de entrada sutil por desplazamiento y efectos hover en tarjetas, categorías y fotos reales.
+- Nueva sección editorial premium con fotografía real de las instalaciones Valenza y etiquetas en la galería del showroom.
+- Se respeta la preferencia de movimiento reducido (`prefers-reduced-motion`).
+- Siguen en modo prueba las comunicaciones, la tasación y los cálculos de financiación; no se envían datos personales ni hay WhatsApp real.
+- Se mantienen los enlaces de imágenes de Inventario Pro. Requieren conexión a Internet.
+
+### Comprobaciones
+- `node --check app.js`: correcto.
+- Servidor HTTP local: respuesta 200.
+- La verificación visual automatizada en Chromium no se completó por fallo del proceso gráfico; pendiente comprobar escritorio y móvil manualmente.
