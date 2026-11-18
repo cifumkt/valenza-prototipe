@@ -62,3 +62,8 @@ El stock es una copia de la exportación del 17/11/2026; no está sincronizado e
 - Conserva las herramientas, el stock y los avisos de entorno de pruebas de V3.
 
 **Limitación:** el mapa es una representación geográfica simplificada, no una cartografía de transportes ni un servicio de navegación. Las flechas muestran cobertura de ejemplo. La web sigue siendo un prototipo estático y no captura leads.
+
+
+## V5 — Mapa a partir de referencia facilitada por el cliente
+
+El mapa de la sección de entregas utiliza el contorno cartográfico y las coordenadas del componente `MapaEspana.js` de `asg-web 2.zip`, adaptados a la identidad Valenza y a un prototipo estático sin React. Múltiples conexiones curvas salen simultáneamente desde Córdoba. No se muestra un destino fijo al cargar. Se excluyen Canarias y Baleares por tratarse de una sección de envíos peninsulares.

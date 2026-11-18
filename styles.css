@@ -80,3 +80,15 @@
 .showroom-section{padding:85px 0 96px;background:#fff}.showroom-section-head{margin-bottom:27px}.showroom-gallery{display:grid;grid-template-columns:1.35fr 1fr 1fr;grid-template-rows:205px 205px;gap:11px}.showroom-tile{position:relative;overflow:hidden;border-radius:14px;background:#eee;margin:0}.showroom-tile-large{grid-row:span 2}.showroom-tile img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .55s}.showroom-tile:hover img{transform:scale(1.035)}
 @media(max-width:760px){.showroom-section{padding:55px 0 65px}.showroom-gallery{grid-template-columns:1fr 1fr;grid-template-rows:250px 150px 150px;gap:8px}.showroom-tile-large{grid-column:span 2;grid-row:span 1}.showroom-section-head{gap:12px}.delivery-map svg{aspect-ratio:auto}.destination-point text{font-size:12px}}
 @media(prefers-reduced-motion:reduce){.delivery-route,.showroom-tile img{animation:none!important;transition:none!important}}
+
+/* V5: mapa de referencia ASG, estética Valenza. */
+.delivery-map{padding:18px 20px 12px}
+.delivery-map svg{aspect-ratio:560/500;max-height:610px}
+.delivery-map .map-outline{fill:#f2f3f4;stroke:#bcc2c8;stroke-width:1.2;stroke-linejoin:round}
+.delivery-map .delivery-route{stroke:#c91e32;stroke-width:1.55;stroke-dasharray:none;opacity:.44;fill:none;marker-end:url(#deliveryArrow)}
+.delivery-map .delivery-route.is-active{stroke-width:2.8;opacity:1;stroke-dasharray:none}
+.delivery-map .delivery-route.is-muted{opacity:.12}
+.delivery-map .destination-point circle{fill:#282d35;stroke:#fff;stroke-width:1.6;transition:fill .2s}
+.delivery-map .destination-point:hover circle,.delivery-map .destination-point.is-active circle{fill:#c91e32}
+.delivery-map .central-label{font-size:12px;font-weight:800}
+@media(max-width:760px){.delivery-map{padding:8px}.delivery-map svg{max-height:none}.delivery-selector{max-height:108px;overflow:auto}}
