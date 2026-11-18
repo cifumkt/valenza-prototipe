@@ -35,3 +35,11 @@ Migrar estos componentes validados a **Next.js + TypeScript**, generar páginas 
 ## Repositorio GitHub sugerido
 
 `valenza-web`. Subir los archivos de este proyecto, pero no subir archivos fuente con matrículas/VIN ni credenciales. La versión pública debe operar con el JSON saneado o un servidor con filtrado de campos.
+
+
+## Actualización V2 — 18/11/2026
+- Mayor espaciado vertical y separación entre campos del buscador de portada.
+- Filtros de carrocería y transmisión en portada, conectados a los filtros ya existentes del catálogo.
+- Nueva sección «Coche a la carta» en la portada y ruta `#/coche-a-la-carta`.
+- Formulario de solicitud ilustrativo: no almacena ni envía información.
+- Las categorías de carrocería del filtro reflejan los valores literales exportados por Inventario Pro; solo aparecen opciones presentes en el stock.
