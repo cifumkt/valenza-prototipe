@@ -29,3 +29,39 @@
 @media(max-width:1100px){.search-row{grid-template-columns:repeat(2,minmax(0,1fr))!important}.search-row .search-submit{grid-column:auto!important}.bespoke-grid{gap:30px}}
 @media(max-width:760px){.hero-search{padding:24px 18px 28px!important;margin-top:-49px}.hero-search>div:first-child{font-size:19px;margin-bottom:20px!important}.search-row{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:17px 10px!important}.search-row .field select{min-height:49px;font-size:12px}.search-row .search-submit{grid-column:1/-1!important;min-height:52px}.hero-search+.trust-strip{padding-top:35px;padding-bottom:35px}.bespoke-section{padding:62px 0}.bespoke-grid,.bespoke-request{grid-template-columns:1fr;gap:28px}.bespoke-art{min-height:290px;padding:25px}.bespoke-copy h2{font-size:46px}.bespoke-copy .bespoke-lead{font-size:20px}.bespoke-process{grid-template-columns:1fr;gap:22px}.bespoke-page-hero{padding:62px 0}.bespoke-page-hero p{font-size:15px}.bespoke-request h2{font-size:34px}}
 @media(max-width:400px){.search-row{grid-template-columns:1fr!important}.search-row .search-submit{grid-column:auto!important}}
+
+/* VALENZA v3 — premium refinements */
+.line-icon{display:inline-block;vertical-align:middle;flex:none}
+.pill .line-icon,.text-link .line-icon,.car-foot .line-icon{margin-left:5px}
+.category .big{color:var(--red);display:flex;align-items:center}
+.category strong{display:flex;justify-content:space-between;align-items:center}
+.hero-search{padding:38px 38px 42px}
+.search-row{row-gap:28px!important}
+.trust-icon{display:grid;place-items:center;width:32px;color:var(--red)}
+.feature-visual{overflow:hidden;background:#111;min-height:330px}
+.feature-visual img{width:100%;height:100%;min-height:330px;object-fit:cover;object-position:center}
+.vehicle-finance-calculator{border:1px solid #e5e5e8;border-radius:12px;padding:20px;background:#fbfbfc;margin-top:18px}
+.calc-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px;font-size:15px}
+.calc-heading span{font-size:11px;color:#b62136;background:#ffedf0;border-radius:4px;padding:7px 8px;font-weight:800}
+.vehicle-finance-calculator .field{margin:12px 0}
+.calc-result{border-top:1px solid #e5e5e8;padding-top:16px;margin-top:19px;display:flex;flex-direction:column;gap:5px}
+.calc-result small{color:#6d7079;font-size:12px}.calc-result strong{font-size:29px;letter-spacing:-.04em}.calc-result span{font-size:11px;color:#7c7e84}
+.vehicle-finance-calculator p{font-size:10px;line-height:1.7;color:#787981;margin-top:14px}
+.mini-finance-link{display:inline-flex;align-items:center;gap:7px;color:var(--red);font-weight:700;font-size:12px;margin-top:13px}
+.delivery-section{background:#f4f4f5;padding:90px 0}
+.delivery-grid{display:grid;grid-template-columns:.86fr 1.14fr;gap:55px;align-items:center}
+.delivery-copy h2{font-size:clamp(38px,4.5vw,62px);line-height:1.13;letter-spacing:-.05em}
+.delivery-copy>p{font-size:14px;color:#6d7077;line-height:1.8;margin:18px 0 20px}
+.delivery-origin{display:flex;align-items:center;gap:12px;margin:24px 0;color:#bb2037}
+.delivery-origin span{display:flex;flex-direction:column;gap:3px;color:#1a1b20}.delivery-origin small{font-size:11px;color:#85868d}
+.delivery-selector{display:flex;flex-wrap:wrap;gap:8px}.destination{border:1px solid #d3d4d7;background:white;border-radius:100px;padding:9px 13px;color:#35363b;font-size:11px;font-weight:700}.destination.selected,.destination:hover{border-color:#c71f36;background:#c71f36;color:white}
+.delivery-copy .delivery-legal{font-size:11px;color:#8b8d91;margin-top:22px}
+.delivery-map{background:white;border:1px solid #e0e0e3;border-radius:17px;padding:20px;box-shadow:0 20px 60px #0000000b}
+.delivery-map svg{display:block;width:100%;height:auto;overflow:visible}
+.map-outline{fill:#f3f3f5;stroke:#ced1d6;stroke-width:2.5}.map-portugal{fill:#e8e9eb;stroke:#dadde1;stroke-width:1.2}
+.delivery-route{fill:none;stroke:#c71f36;stroke-width:1.5;stroke-dasharray:5 6;opacity:.25;transition:stroke-width .2s,opacity .2s}.delivery-route.is-active{stroke-width:3;opacity:1;stroke-dasharray:7 4;animation:mapDash 4s linear infinite}@keyframes mapDash{to{stroke-dashoffset:-88}}
+.central-dot{fill:#c71f36;stroke:white;stroke-width:4}.central-label{fill:#a91932;font-weight:900;font-size:13px}.destination-point{cursor:pointer;outline:0}.destination-point circle{fill:#31363d;stroke:white;stroke-width:2}.destination-point text{fill:#555964;font-size:11px;font-weight:700}.destination-point:focus circle,.destination-point:hover circle{fill:#c71f36}
+.map-info{text-align:center;font-size:12px;letter-spacing:.08em;color:#a31a31;font-weight:800;border-top:1px solid #eee;padding-top:16px}
+.whatsapp-widget{position:fixed;right:22px;bottom:22px;z-index:55}.whatsapp-fab{border:0;padding:0;background:transparent;border-radius:50%;width:62px;height:62px;filter:drop-shadow(0 6px 10px #0003);transition:transform .2s;display:grid;place-items:center}.whatsapp-fab:hover{transform:translateY(-3px)}.whatsapp-fab img{width:100%;height:100%;object-fit:contain}.whatsapp-panel{position:absolute;bottom:75px;right:0;background:white;width:min(310px,calc(100vw - 40px));border:1px solid #ddd;box-shadow:0 12px 35px #0002;border-radius:15px;padding:20px}.whatsapp-panel[hidden]{display:none}.whatsapp-panel strong{font-size:15px}.whatsapp-panel p{font-size:12px;color:#777;line-height:1.7;margin:10px 0}.whatsapp-panel a{font-size:13px;color:var(--red);font-weight:700;display:flex;gap:6px;align-items:center}
+@media(max-width:1100px){.delivery-grid{grid-template-columns:1fr;gap:24px}.delivery-map{max-width:750px}}
+@media(max-width:760px){.hero-search{padding:30px 20px 34px!important}.search-row{row-gap:18px!important}.feature-visual,.feature-visual img{min-height:230px}.delivery-section{padding:58px 0}.delivery-grid{gap:25px}.delivery-copy h2{font-size:40px}.delivery-map{padding:10px}.delivery-selector{gap:6px}.destination{font-size:10px;padding:7px 9px}.whatsapp-widget{right:14px;bottom:15px}.whatsapp-fab{width:56px;height:56px}.vehicle-finance-calculator{padding:15px}.nav-actions{gap:8px}}

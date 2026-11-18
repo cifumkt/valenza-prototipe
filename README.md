@@ -43,3 +43,14 @@ Migrar estos componentes validados a **Next.js + TypeScript**, generar páginas 
 - Nueva sección «Coche a la carta» en la portada y ruta `#/coche-a-la-carta`.
 - Formulario de solicitud ilustrativo: no almacena ni envía información.
 - Las categorías de carrocería del filtro reflejan los valores literales exportados por Inventario Pro; solo aparecen opciones presentes en el stock.
+
+
+## V3 — cambios del 18/11/2026
+- Sustitución de emojis de categorías, buscador, enlaces y confianza por iconos SVG minimalistas.
+- Fotografía original facilitada por Valenza en la sección de tasación.
+- Calculadora orientativa integrada en cada ficha con 6,49 % **TIN** (no TAE), entrada y plazo configurables. Cálculo francés sin costes adicionales; no es oferta vinculante.
+- Página Contacto con formulario demostrativo (no envía ni almacena datos).
+- Botón flotante de WhatsApp con el recurso gráfico facilitado y panel informativo: en la prueba no abre consultas reales.
+- Bloque «Enviamos a toda la península» en la home, con mapa esquemático SVG interactivo, flechas desde Córdoba y destinos seleccionables. No representa distancias, recorridos reales ni tiempos de entrega.
+
+El stock es una copia de la exportación del 17/11/2026; no está sincronizado en tiempo real.
