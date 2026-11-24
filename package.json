@@ -1,0 +1,12 @@
+{
+  "name": "valenza-web",
+  "version": "7.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Web de Valenza Exclusive Autos (estática, sin dependencias)",
+  "scripts": {
+    "data": "node scripts/build-data.mjs",
+    "dev": "npx --yes serve -l 8000 .",
+    "check": "node --check js/main.js"
+  }
+}

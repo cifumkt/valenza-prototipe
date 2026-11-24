@@ -1,1 +1,40 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="theme-color" content="#111216"/><meta name="description" content="Prototipo privado de Valenza Exclusive Autos: vehículos de ocasión, KM0 y seminuevos."/><link rel="icon" href="./assets/favicon.png"/><link rel="stylesheet" href="./styles.css"/><title>VALENZA® — Exclusive Autos · Prototipo</title></head><body><div id="app"></div><script type="module" src="./app.js"></script></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Valenza Exclusive Autos · Coches de ocasión, seminuevos y KM0</title>
+  <meta name="description" content="Coches de ocasión, seminuevos y KM0 con financiación y entrega en toda la península.">
+  <meta name="theme-color" content="#0c0d10">
+  <meta name="color-scheme" content="light">
+
+  <!-- ⚠ PROTOTIPO: quitar esta línea cuando la web salga a producción -->
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Política de seguridad de contenido: sin scripts ni estilos en línea.
+       Si añades un backend para formularios, incluye su URL en connect-src. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://fotos.inventario.pro; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Valenza Exclusive Autos">
+  <meta property="og:description" content="Coches de ocasión, seminuevos y KM0 con financiación y entrega en toda la península.">
+  <meta property="og:image" content="./assets/img/hero-1600.webp">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="./assets/img/favicon-180.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+
+  <link rel="preload" href="./assets/fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./assets/fonts/dm-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./data/stock.json" as="fetch" crossorigin>
+  <link rel="preload" as="image" href="./assets/img/hero-1600.webp" imagesrcset="./assets/img/hero-800.webp 800w, ./assets/img/hero-1600.webp 1600w" imagesizes="100vw" fetchpriority="high">
+  <link rel="preconnect" href="https://fotos.inventario.pro" crossorigin>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <noscript><p class="noscript">Esta web necesita JavaScript para mostrar el catálogo.</p></noscript>
+</body>
+</html>

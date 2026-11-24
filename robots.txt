@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Prototipo: cambiar a "Allow: /" y añadir Sitemap al publicar.
